@@ -7,14 +7,15 @@ body{
 .navbar{
     border-bottom: 0.2px solid black;
     width:100vw;
-    height:15vh;
+    height:19vh;
+    font-size: 3vw;
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+            /* LANDING */
 #header {
     background-attachment: scroll,							scroll,					fixed;
     background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
@@ -477,4 +478,28 @@ body{
 					display: none;
 				}
 
-	}
+    }
+    
+
+
+                /* CONTENT */
+        
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100vw;
+        height:30.5vh;
+    }
+
+    .icon{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .iconDetails{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
