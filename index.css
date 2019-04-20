@@ -508,8 +508,9 @@ body{
                     /* WHY ASSOCIATE WITH EXCEL */
         
     .excelAssociation{
-        height:50vh;
+       	height: 200vh;
         display: grid;
+        vertical-align: middle;
         grid-template-rows: 1fr 3fr;
     }
 
@@ -523,8 +524,20 @@ body{
     .associationImages{
         color: white;
         background-color: black;
+        vertical-align: middle;
+        
+
     }
 
+    .associationimg{
+    	font-size: 1vw;
+    	text-align: center;
+    	vertical-align: middle;
+    	width: 50vw;
+    	position: relative;
+    }
+
+   
 
 
                         /* REACH */
