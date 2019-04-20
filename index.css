@@ -503,3 +503,36 @@ body{
         justify-content: center;
         align-items:center;
     }
+
+
+                    /* WHY ASSOCIATE WITH EXCEL */
+        
+    .excelAssociation{
+        height:50vh;
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+    }
+
+    .excelAssociation>div{
+        font-size:3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .associationImages{
+        color: white;
+        background-color: black;
+    }
+
+
+
+                        /* REACH */
+
+    .reach{
+        width:100vw;
+        height:50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
