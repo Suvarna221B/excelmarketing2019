@@ -2,18 +2,81 @@ body{
     margin:0;
 }
 
-            /* NAVBAR */
+		/* NAVBAR */
 
-.navbar{
-    border-bottom: 0.2px solid black;
-    width:100vw;
-    height:19vh;
-    font-size: 3vw;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	font-size: 1.2em;
 }
+	.btn:hover {
+	color: #c57ed3;
+	border-color: #c57ed3;
+}
+.navbar {
+	height: 0px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	z-index: 100;
+	transition: background-color 1s ease 0s;
+}
+.navbar-default .navbar-brand {
+	vertical-align:middle;
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #c57ed3;
+	border: 1px solid #c57ed3;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	vertical-align:middle;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+	color: #c57ed3;
+	border: 1px solid #c57ed3;
+}
+.navbar-default .navbar-nav > li > a:visited {
+	color: #c57ed3;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	color: #c57ed3;
+}
+.navbar-default .navbar-toggle {
+	border-color: #c57ed3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #490d40;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	color: #c57ed3;
+	background-color: #c57ed3;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+	background-color: #490d40;
+}
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+	background-color: #490d40;
+	transition: background-color 1s ease 0s;
+	box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+	color: #c57ed3;
+	transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+	color: #c57ed3;
+	transition: color 1s ease 0s;
+}
+			
+			
 
             /* LANDING */
 #header {
