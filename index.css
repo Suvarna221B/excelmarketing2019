@@ -599,7 +599,33 @@ body{
     	width: 50vw;
     	position: relative;
     }
+    @media (min-width: 481px) and (max-width: 767px) {
+  
+    	.associationimg{
+    		font-size: 2vw;
+    		text-align: center;
+    		vertical-align: middle;
+    	}
 
+
+  
+	}
+
+	@media (min-width: 320px) and (max-width: 480px) {
+  
+   		.associationimg{
+    		font-size: 2vw;
+    		text-align: center;
+    		vertical-align: middle;
+    		position:relative;
+    	 	justify-content: center;
+
+    	}
+    	.images{
+    		height: 20vh;
+    	}
+  
+}
    
 
 
@@ -607,8 +633,25 @@ body{
 
     .reach{
         width:100vw;
-        height:50vh;
-        display: flex;
         justify-content: center;
-        align-items: center;
+        }
+    .container{
+    	padding-top:5vh;
     }
+    .row{
+    	padding-top: 2vh;
+    }
+    .reachhead {
+    	font-size: 5vw;
+    	text-align:center;
+    	justify-content: center;
+    } 
+    .reachimg{
+    	justify-content: center;
+    }
+
+      
+          }
+
+   
+
