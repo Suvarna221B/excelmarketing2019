@@ -604,8 +604,11 @@ body{
     	.associationimg{
     		font-size: 2vw;
     		text-align: center;
-    		vertical-align: middle;
-    	}
+			vertical-align: middle;
+			width:50vh;
+		}
+	
+
 
 
   
@@ -622,7 +625,7 @@ body{
 
     	}
     	.images{
-    		height: 20vh;
+			height: 20vh;
     	}
   
 }
@@ -632,33 +635,64 @@ body{
                         /* REACH */
 
     .reach{
-        width:100vw;
-        justify-content: center;
-        }
+        width:100%;
+		}
     .container2{
-    	padding-top:5vh;
+		padding-top:5vh;
+		margin-left:14em;
     }
     .row{
     	padding-top: 2vh;
     }
     .reachhead {
+		margin-top:1.5em;
     	font-size: 5vw;
     	text-align:center;
     	justify-content: center;
     } 
     .reachimg{
-    	justify-content: center;
-    }
+		justify-content: center;
+	}
 
-      
-		  }
+	@media only screen and (max-width: 768px) 
+ {
+		.container2{
+			padding-top:5vh;
+			margin-left:9.5em;
+			
+		}
+		.reachhead
+		{
+			padding-top:5vh;
+			font-size:40px;
+		}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+      .container2{
+			padding-top:5vh;
+			margin-left:4.5em;
+			
+		}
+		.reachhead
+		{
+			padding-top:15vh;
+			font-size:10vw;
+		}
+
 		  
-		  @media only screen and (max-width: 768px) {
-			/* For mobile phones: */
-			[class*="container2"] {
-			  width: 100%;
-			}
-		  }
+	
+
 
    
 
+	}
+
+	@media only screen and (max-width: 768px) {
+		.container2
+		{
+			padding-top:5vh;
+			margin-left:6em;
+		}
+	}
