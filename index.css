@@ -635,7 +635,7 @@ body{
         width:100vw;
         justify-content: center;
         }
-    .container{
+    .container2{
     	padding-top:5vh;
     }
     .row{
@@ -651,7 +651,14 @@ body{
     }
 
       
-          }
+		  }
+		  
+		  @media only screen and (max-width: 768px) {
+			/* For mobile phones: */
+			[class*="container2"] {
+			  width: 100%;
+			}
+		  }
 
    
 
