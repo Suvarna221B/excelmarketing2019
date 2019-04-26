@@ -696,3 +696,63 @@ body{
 			margin-left:6em;
 		}
 	}
+
+		/* Sponser*/
+
+		.orb {
+			width: 150px;
+			height: 150px;
+			background: #fff;
+			display: inline-block;
+			margin: 0 24.7px;
+			float: left;
+			transition: all .2s ease-out;
+			opacity: 0.8;
+		  }
+		  #geogit{
+			width: 100px;
+			margin-top: 20px;
+			height: 100px;
+		  }
+		  .orb:hover {
+			transform: scale(1.2);
+			opacity: 1;
+		  }
+		  
+		  .marquee {
+			height: 200px;
+			width: 11300px;
+			border: 2px solid #eee;
+			overflow: hidden;
+			box-sizing: border-box;
+			position: relative;
+			margin: 200px auto;
+		  }
+		  
+		  .marquee--inner {
+			display: block;
+			width: 200%;
+			margin: 20px 0;
+			position: absolute;
+			animation: marquee 35s linear infinite;
+		  }
+		  
+		  .marquee--inner:hover {
+			animation-play-state: paused;
+		  }
+		  
+		  /*.half {
+			float: left;
+			width: 10%;
+		  }*/
+		  
+		  span {
+			float: left;
+			width: 50%:
+		  }
+		  
+		  @keyframes marquee {
+			0% { left: 0; }
+			100% { left: -100%; }
+		  }
+		  
