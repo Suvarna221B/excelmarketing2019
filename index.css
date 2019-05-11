@@ -1,5 +1,6 @@
-body{
-    margin:0;
+body,html{
+	margin:0;
+	overflow-x: hidden;
 }
 
 		/* NAVBAR */
@@ -719,9 +720,9 @@ body{
 			transform: scale(1.2);
 			opacity: 1;
 		  }
-		  .container{
+		 .container3{
 			  overflow: hidden;
-				margin: 0;
+			  padding: 0;
 		  }
 		  
 		  .marquee {
@@ -730,7 +731,7 @@ body{
 			border: 2px solid #eee;
 			box-sizing: border-box;
 			position: relative;
-			margin: 200px auto;
+			margin: 200px 0 200px 0;
 		  }
 		  
 		  .marquee--inner {
