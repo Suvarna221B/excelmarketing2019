@@ -695,6 +695,9 @@ body{
 			padding-top:5vh;
 			margin-left:6em;
 		}
+		.marquee{
+			width: 4520px;
+		}
 	}
 
 		/* Sponser*/
