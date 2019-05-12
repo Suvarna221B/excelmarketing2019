@@ -1,5 +1,6 @@
-body{
-    margin:0;
+body,html{
+	margin:0;
+	overflow-x: hidden;
 }
 
 		/* NAVBAR */
@@ -695,6 +696,7 @@ body{
 			padding-top:5vh;
 			margin-left:6em;
 		}
+	
 	}
 
 		/* Sponser*/
@@ -703,7 +705,7 @@ body{
 			width: 150px;
 			height: 150px;
 			background: #fff;
-			display: inline-block;
+			display: inline;
 			margin: 0 24.7px;
 			float: left;
 			transition: all .2s ease-out;
@@ -718,15 +720,18 @@ body{
 			transform: scale(1.2);
 			opacity: 1;
 		  }
+		 .container-fluid{
+			  overflow: hidden;
+			  padding: 0;
+		  }
 		  
 		  .marquee {
 			height: 200px;
 			width: 11300px;
 			border: 2px solid #eee;
-			overflow: hidden;
 			box-sizing: border-box;
 			position: relative;
-			margin: 200px auto;
+			margin: 200px 0 200px 0;
 		  }
 		  
 		  .marquee--inner {
