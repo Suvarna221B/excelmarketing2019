@@ -79,7 +79,9 @@ body,html{
 			
 			
 
-            /* LANDING */
+						/* LANDING */
+						
+
 #header {
     background-attachment: scroll,							scroll,					fixed;
     background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
@@ -90,7 +92,7 @@ body,html{
     padding: 10em 0 20em 0;
     position: relative;
     text-align: center;
-    height:0vh;
+    height:65vh;
     width: 100vw;
 }
 
@@ -542,7 +544,9 @@ body,html{
 					display: none;
 				}
 
-    }
+		}
+		
+
     
 
 
@@ -568,10 +572,28 @@ body,html{
         align-items:center;
     }
 
+									/* ABOUT EXCEL */
+
+		.about{
+			width:100vw;
+			height:30vh;
+		}
+
+		.aboutimg{
+			background-color: black;
+			display: grid;
+			grid-template-columns: 2fr 5fr;
+		}
 
                     /* WHY ASSOCIATE WITH EXCEL */
-        
+				
+		.whyassociate{
+			color:white;
+			background-color: black;
+		}								
     .excelAssociation{
+				margin-top:5.6vh;
+				/* border: solid 2px blue; */
        	height: 200vh;
         display: grid;
         vertical-align: middle;
