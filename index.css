@@ -659,6 +659,7 @@ body,html{
 
     .reach{
         width:100%;
+
 		}
     .container2{
 		padding-top:5vh;
@@ -669,12 +670,14 @@ body,html{
     }
     .reachhead {
 		margin-top:1.5em;
-    	font-size: 5vw;
+    	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
     } 
     .reachimg{
 		justify-content: center;
+		height: 15vh;
+		
 	}
 
 	@media only screen and (max-width: 768px) 
@@ -689,6 +692,7 @@ body,html{
 			padding-top:5vh;
 			font-size:40px;
 		}
+		
 }
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -702,6 +706,10 @@ body,html{
 		{
 			padding-top:15vh;
 			font-size:10vw;
+		}
+
+		.reachimg{
+			height: 15vh;
 		}
 
 		  
@@ -782,4 +790,6 @@ body,html{
 			0% { left: 0; }
 			100% { left: -100%; }
 		  }
-		  
+		 
+		
+		 
