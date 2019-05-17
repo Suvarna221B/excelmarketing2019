@@ -577,6 +577,7 @@ body,html{
 		.about{
 			width:100vw;
 			height:30vh;
+
 		}
 
 		.aboutimg{
@@ -692,7 +693,7 @@ body,html{
 			padding-top:5vh;
 			font-size:40px;
 		}
-		
+
 }
 @media (min-width: 320px) and (max-width: 480px) {
 
