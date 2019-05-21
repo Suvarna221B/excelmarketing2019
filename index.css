@@ -8,14 +8,11 @@ body,html{
 .btn {
 	background-color: transparent;
 	color: white;
-	border: 1px solid white;
+	border: 1px solid transparent;
 	padding: 10px;
 	font-size: 1.2em;
 }
-	.btn:hover {
-	color: #c57ed3;
-	border-color: #c57ed3;
-}
+
 .navbar {
 	height: 0px;
 	background-color: transparent;
@@ -26,54 +23,68 @@ body,html{
 }
 .navbar-default .navbar-brand {
 	vertical-align:middle;
-	color: white;
+	color:transparent;
 }
 
+
 .navbar-default .navbar-brand:hover {
-	color: #c57ed3;
-	border: 1px solid #c57ed3;
+	color:transparent;
+	border: 1px solid transparent;
 }
 .navbar-default .navbar-nav > li > a {
 	color: white;
+
 	vertical-align:middle;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-	color: #c57ed3;
-	border: 1px solid #c57ed3;
+	color: #f9f5fa;
+	border: 1px solid transparent;
 }
+
+
 .navbar-default .navbar-nav > li > a:visited {
-	color: #c57ed3;
+	color: white;
 	text-decoration: none;
+
 }
+@media screen and (max-width: 736px) {
+	.navbar-default .navbar-nav > li > a:visited {
+		color: black;
+		text-decoration: none;
+	
+	}}
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: transparent;
+	background-color: white;
 	color: #c57ed3;
 }
 .navbar-default .navbar-toggle {
-	border-color: #c57ed3;
+	border-color: black;
+	width:7vh;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #490d40;
+	background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	color: #c57ed3;
-	background-color: #c57ed3;
+	color: black;
+	background-color: black;
 }
 .navbar-default .navbar-collapse.collapse.in ul {
-	background-color: #490d40;
+	background-color: white;
 }
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-	background-color: #490d40;
+	background-color: white;
 	transition: background-color 1s ease 0s;
 	box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-	color: #c57ed3;
+	color: black;
 	transition: color 1s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-	color: #c57ed3;
+	
+	color:black;
 	transition: color 1s ease 0s;
 }
 			
@@ -550,8 +561,9 @@ body,html{
     
 
 
-                /* CONTENT */
-        
+								/* CONTENT */
+							
+							
     .content{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -575,23 +587,35 @@ body,html{
 									/* ABOUT EXCEL */
 
 		.about{
+			padding-top: 2.5em;
 			width:100vw;
 			height:30vh;
+	
 
 		}
 
 		.aboutimg{
+			padding-top: 2.5em;
 			background-color: black;
 			display: grid;
 			grid-template-columns: 2fr 5fr;
+			padding-right: 50px;
 		}
 
                     /* WHY ASSOCIATE WITH EXCEL */
 				
 		.whyassociate{
+			padding-top: 2.5em;
 			color:white;
 			background-color: black;
-		}								
+		}		
+		@media screen and (max-width: 736px) {
+			.whyassociate
+			{
+				padding-top:15em;
+			}						
+
+		}
     .excelAssociation{
 				margin-top:5.6vh;
 				/* border: solid 2px blue; */
@@ -670,11 +694,17 @@ body,html{
     	padding-top: 2vh;
     }
     .reachhead {
-		margin-top:1.5em;
+		margin-top:4.5em;
     	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
-    } 
+		} 
+		@media screen and (max-width: 736px) {
+			.reachhead{
+				margin-top:2px;
+			}
+		
+			}
     .reachimg{
 		justify-content: center;
 		height: 15vh;
@@ -685,7 +715,7 @@ body,html{
  {
 		.container2{
 			padding-top:5vh;
-			margin-left:9.5em;
+			padding-left:2.2em;
 			
 		}
 		.reachhead
@@ -784,7 +814,7 @@ body,html{
 		  
 		  span {
 			float: left;
-			width: 50%:
+			width: 50%;
 		  }
 		  
 		  @keyframes marquee {
