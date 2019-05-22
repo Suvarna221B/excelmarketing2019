@@ -608,7 +608,9 @@ body,html{
 			padding-top: 2.5em;
 			color:white;
 			background-color: black;
-		}		
+			font-family: monospace;
+		}	
+	
 	
     .excelAssociation{
 				margin-top:5.6vh;
@@ -624,6 +626,7 @@ body,html{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: monospace;
     }
 
     .associationImages{
@@ -700,6 +703,7 @@ body,html{
 
     .reach{
         width:100%;
+        font-family: monospace;
 
 		}
     .container2{
@@ -714,6 +718,7 @@ body,html{
     	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
+    	font-family: monospace;		
 		} 
 		@media screen and (max-width: 736px) {
 			.reachhead{
@@ -788,6 +793,7 @@ body,html{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
+			font-family: monospace;
 			
 	}
 
@@ -799,6 +805,7 @@ body,html{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
+			font-family: monospace;
 		 }
 	
 		.orb {
