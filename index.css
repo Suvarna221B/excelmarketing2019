@@ -609,13 +609,7 @@ body,html{
 			color:white;
 			background-color: black;
 		}		
-		@media screen and (max-width: 736px) {
-			.whyassociate
-			{
-				padding-top:15em;
-			}						
-
-		}
+	
     .excelAssociation{
 				margin-top:5.6vh;
 				/* border: solid 2px blue; */
@@ -656,7 +650,18 @@ body,html{
 			width:50vh;
 		}
 	
-
+		.whyassociate
+		{
+		
+					
+					padding-top:15em;
+						
+		
+			
+		}
+		p{
+			font-size:18px;
+		}
 
 
   
@@ -675,7 +680,18 @@ body,html{
     	.images{
 			height: 20vh;
     	}
-  
+			.whyassociate
+			{
+			
+						
+						padding-top:15em;
+										
+					font-size: 40px;
+				
+			}
+			p{
+				font-size:12px;
+			}
 }
    
 
@@ -720,9 +736,11 @@ body,html{
 		}
 		.reachhead
 		{
-			padding-top:5vh;
+		
 			font-size:40px;
 		}
+		
+	
 
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -735,7 +753,7 @@ body,html{
 		}
 		.reachhead
 		{
-			padding-top:15vh;
+			padding-top:12em;
 			font-size:10vw;
 		}
 
@@ -744,7 +762,10 @@ body,html{
 		}
 
 		  
-	
+	.gallery{
+		padding-top:15vh;
+			font-size:10vw;
+	}
 
 
    
@@ -759,9 +780,27 @@ body,html{
 		}
 	
 	}
+	/*gallery*/
+
+	.gallery
+	{
+		margin-top:1.5em;
+    	font-size: 4vw;
+    	text-align:center;
+			justify-content: center;
+			
+	}
+
 
 		/* Sponser*/
-
+		 .sponser
+		 {
+			margin-top:1.5em;
+    	font-size: 4vw;
+    	text-align:center;
+			justify-content: center;
+		 }
+	
 		.orb {
 			width: 150px;
 			height: 150px;
@@ -792,7 +831,7 @@ body,html{
 			border: 2px solid #eee;
 			box-sizing: border-box;
 			position: relative;
-			margin: 200px 0 200px 0;
+			margin: 100px 0 200px 0;
 		  }
 		  
 		  .marquee--inner {
@@ -821,6 +860,27 @@ body,html{
 			0% { left: 0; }
 			100% { left: -100%; }
 		  }
-		 
+			@media only screen and (max-width: 768px) 
+			{
+				 
+				 .sponser{
+					 padding-top:0em;
+					 font-size:40px;
+			 
+				 }
+				 .marquee{
+					 margin-top: 50px;
+				 }
+				 .reachhead
+				 {
+					 padding-top:5.5em;
+				 }
+					
+					.gallery{
+						padding-top:0em;
+						font-size:40px;
+						padding-bottom: 1em;
+					}
+		 }
 		
 		 
