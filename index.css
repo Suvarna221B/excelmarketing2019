@@ -890,4 +890,18 @@ body,html{
 					}
 		 }
 		
-		 
+		 @media only screen and (max-width: 400px)
+		 {
+		 	.respon
+		 	{
+		 		max-width: 80px;
+		 		height: 100px;
+		 	}
+
+		 	.abtpara
+		 	{
+		 		max-width: 250px;
+
+		 	}
+
+		 }
