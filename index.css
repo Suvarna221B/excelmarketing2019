@@ -890,7 +890,7 @@ body,html{
 					}
 		 }
 		
-		 @media only screen and (max-width: 400px)
+		 		@media only screen and (max-width: 400px)
 		 {
 		 	.respon
 		 	{
@@ -901,7 +901,30 @@ body,html{
 		 	.abtpara
 		 	{
 		 		max-width: 250px;
+		 		font-size: 4.5vw !important;
+		 		
 
 		 	}
 
+		 }
+		 		@media only screen and (min-width:401px) and (max-width: 768px)
+		 {
+		 	.respon
+		 	{
+		 		max-width: 185px;
+		 		height: 250px;
+		 	}
+
+		 	.abtpara
+		 	{
+		 		max-width: 480px;
+		 		font-size: 2vw !important;
+		 	
+		 	}
+
+		 }
+
+.about
+		 {
+		 	background-color: white;
 		 }
