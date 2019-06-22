@@ -93,6 +93,16 @@ body,html{
 						/* LANDING */
 						
 
+
+.landingtitle{
+	font-size: 7vh;
+}
+
+.landingtitle:hover{
+	color:white;
+	text-emphasis: 100;
+	cursor:pointer;
+}
 #header {
     background-attachment: scroll,							scroll,					fixed;
     background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
@@ -134,7 +144,8 @@ body,html{
 
         #header a:hover {
             border-bottom-color: transparent;
-            color: #4eb980;
+						color: white;
+						text-decoration: none;	
         }
 
     #header strong, #header b {
@@ -154,7 +165,7 @@ body,html{
     }
 
     #header .logo {
-        background: #4eb980;
+        background: white;
         border-radius: 100%;
         color: #ffffff;
         cursor: default;
@@ -589,8 +600,8 @@ body,html{
 		.about{
 			padding-top: 2.5em;
 			width:100vw;
-			height:30vh;
-	
+			height:58vh;
+			/* border: 3px solid red; */
 
 		}
 
@@ -602,10 +613,21 @@ body,html{
 			padding-right: 50px;
 		}
 
+		@media (min-width: 320px) and (max-width: 767px) {
+			.about{
+				height:140vh;
+				/* border:3px solid red; */
+			}
+/* 
+			.aboutimg{
+				display: grid;
+				grid-template-rows: 2fr 5fr;
+			} */
+		}
                     /* WHY ASSOCIATE WITH EXCEL */
 				
 		.whyassociate{
-			padding-top: 2.5em;
+			/* padding-top: 2.5em; */
 			color:white;
 			background-color: black;
 			font-family: monospace;
@@ -613,12 +635,12 @@ body,html{
 	
 	
     .excelAssociation{
-				margin-top:5.6vh;
+				/* margin-top:5.6vh; */
 				/* border: solid 2px blue; */
-       	height: 200vh;
+       	height: 250vh;
         display: grid;
         vertical-align: middle;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr 15fr;
     }
 
     .excelAssociation>div{
@@ -632,7 +654,8 @@ body,html{
     .associationImages{
         color: white;
         background-color: black;
-        vertical-align: middle;
+				vertical-align: middle;
+				/* border:1px solid red; */
         
 
     }
@@ -649,15 +672,16 @@ body,html{
     	.associationimg{
     		font-size: 2vw;
     		text-align: center;
-			vertical-align: middle;
-			width:50vh;
+				vertical-align: middle;
+				width:50vh;
+
 		}
 	
 		.whyassociate
 		{
 		
 					
-					padding-top:15em;
+					padding-top:1vh;
 						
 		
 			
@@ -707,14 +731,14 @@ body,html{
 
 		}
     .container2{
-		padding-top:5vh;
+		/* padding-top:5vh; */
 		margin-left:14em;
     }
     .row{
     	padding-top: 2vh;
     }
     .reachhead {
-		margin-top:4.5em;
+			margin-top:1vh;
     	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
