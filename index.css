@@ -797,6 +797,38 @@ k        background-color: black;
 
 
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto;
+			grid-row-gap: 10vh;
+		}
+
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto;
+			grid-row-gap: 10vh;
+		}
+
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+}
 
 
 
