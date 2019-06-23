@@ -725,13 +725,53 @@ body,html{
 
                         /* REACH */
 
-    .reach{
+	.reach{
+        width:100%;
+        align-self: center;
+        font-family: monospace;
+
+		}
+	.reachhead {
+			margin-top:1vh;
+    	font-size: 4vw;
+    	text-align:center;
+    	justify-content: center;
+    	font-family: monospace;		
+		} 
+		@media screen and (max-width: 736px) {
+			.reachhead{
+				margin-top:10vh;
+			}
+		
+		}
+	.grid-container{
+  		display: grid;
+  		justify-content: space-around;
+  		grid-template-columns: auto auto auto auto;
+  		grid-row-gap: 10vh;
+  		grid-column-gap:1vw;
+  		grid-column-start: 1;
+
+	}
+
+	.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+
+	.reachimg{
+		height: 15vh;
+	}
+
+	
+    /*.reach{
         width:100%;
         font-family: monospace;
 
 		}
     .container2{
-		/* padding-top:5vh; */
 		margin-left:14em;
     }
     .row{
@@ -808,7 +848,7 @@ body,html{
 			margin-left:6em;
 		}
 	
-	}
+	}*/
 	/*gallery*/
 
 	.gallery
