@@ -104,6 +104,7 @@ body,html{
 	justify-content: center;
 	align-items: center;
 }
+
 img{
 	margin-top: 2vh;
 	max-width: 30%;
@@ -111,9 +112,6 @@ img{
 	/* height: auto; */
 	/* display: none; */
 }
-/* .landingtitle:hover{
-	text-emphasis: 100;
-} */
 
 #header {
     background-attachment: scroll,							scroll,					fixed;
