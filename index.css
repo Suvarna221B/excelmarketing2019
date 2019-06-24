@@ -98,6 +98,7 @@ body,html{
 	font-size: 10vh;
 	font-family: monospace;
 	display: none;
+
 }
 
 .topExcel{
@@ -107,9 +108,14 @@ body,html{
 }
 
 img{
+
 	/* margin-top: 2vh; */
 	max-width: 40%;
 	/* border-radius: 59%; */
+	margin-top: 2vh;
+	max-width: 30%;
+	border-radius: 59%;
+
 	/* height: auto; */
 	/* display: none; */
 }
