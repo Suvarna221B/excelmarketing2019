@@ -8,7 +8,7 @@ body,html{
 .btn {
 	background-color: transparent;
 	color: white;
-	border: 1px solid transparent;
+	border: 0px solid transparent;
 	padding: 10px;
 	font-size: 1.2em;
 }
@@ -55,15 +55,15 @@ body,html{
 	}}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: white;
+	background-color: transparent;
 	color: #c57ed3;
 }
 .navbar-default .navbar-toggle {
-	border-color: black;
-	width:7vh;
+	border-color: transparent;
+	width:7.2vh;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: white;
+	background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	color: black;
