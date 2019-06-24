@@ -958,14 +958,14 @@ k        background-color: black;
 			opacity: 1;
 		  }
 		 .container-fluid{
-			  overflow: hidden;
+			  /*overflow: hidden;*/
 				padding: 0;
 		  }
 		  
 		  .marquee {
 			height: 200px;
 			width: 6350px;
-			border: 2px solid #eee;
+			border:none;
 			box-sizing: border-box;
 			position: relative;
 			margin: 100px 0 200px 0;
