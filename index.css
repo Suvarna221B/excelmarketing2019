@@ -583,7 +583,7 @@ body,html{
     }
 
     .icon{
-        background-color: black;
+k        background-color: black;
         display: flex;
         justify-content: center;
         align-items:center;
@@ -725,13 +725,119 @@ body,html{
 
                         /* REACH */
 
-    .reach{
+	.reach{
+        width:100%;
+        align-self: center;
+        font-family: monospace;
+
+		}
+	.reachhead {
+			margin-top:1vh;
+    	font-size: 4vw;
+    	text-align:center;
+    	justify-content: center;
+    	font-family: monospace;		
+		} 
+	@media screen and (max-width: 736px) {
+			.reachhead{
+				margin-top:10vh;
+			}
+		
+		}
+	.grid-container{
+  		display: grid;
+  		justify-content: space-around;
+  		grid-template-columns: auto auto auto auto;
+  		grid-row-gap: 10vh;
+  		grid-column-gap:1vw;
+  		grid-column-start: 1;
+
+	}
+
+	.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+
+	.reachimg{
+		height: 15vh;
+	}
+ @media (min-width: 481px) and (max-width: 768px){
+		.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto auto;
+			grid-row-gap: 10vh;
+		}
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+
+	}
+
+@media (min-width: 320px) and (max-width: 480px){
+	.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto;
+			grid-row-gap: 10vh;
+		}
+
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto;
+			grid-row-gap: 10vh;
+		}
+
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.grid-container{
+			display:grid;
+			justify-content: space-around;
+			grid-template-columns: auto auto;
+			grid-row-gap: 10vh;
+		}
+
+		.rchead{
+		font-size: 3vh;
+	}
+	.rc{
+		font-size: 2vh;
+	}
+}
+
+
+
+    /*.reach{
         width:100%;
         font-family: monospace;
 
 		}
     .container2{
-		/* padding-top:5vh; */
 		margin-left:14em;
     }
     .row{
@@ -808,7 +914,7 @@ body,html{
 			margin-left:6em;
 		}
 	
-	}
+	}*/
 	/*gallery*/
 
 	.gallery
@@ -852,14 +958,14 @@ body,html{
 			opacity: 1;
 		  }
 		 .container-fluid{
-			  overflow: hidden;
-			  padding: 0;
+			  /*overflow: hidden;*/
+				padding: 0;
 		  }
 		  
 		  .marquee {
 			height: 200px;
 			width: 6350px;
-			border: 2px solid #eee;
+			border:none;
 			box-sizing: border-box;
 			position: relative;
 			margin: 100px 0 200px 0;
