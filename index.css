@@ -113,7 +113,7 @@ img{
 	max-width: 40%;
 	/* border-radius: 59%; */
 	margin-top: 2vh;
-	border-radius: 59%;
+	/* border-radius: 59%; */
 
 	/* height: auto; */
 	/* display: none; */
@@ -226,8 +226,8 @@ img{
 		}
 
 		img{
-			max-width: 110%;
-			margin-top: 10vh;
+			max-width: 50%;
+			margin-top: 5vh;
 		}
 
 			body, input, select, textarea {
@@ -270,6 +270,12 @@ img{
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
+
+
+		img{
+			max-width: 50%;
+			margin-top: 5vh;
+		}
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -320,7 +326,7 @@ img{
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1600.svg"), url("images/index.png"), url("../../images/header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -367,6 +373,11 @@ img{
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+		
+		img{
+			max-width: 80%;
+			margin-top: 5vh;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -377,6 +388,11 @@ img{
 /* Narrower */
 
 	@media screen and (max-width: 840px) {
+
+		img{
+			max-width: 70%;
+			margin-top: 5vh;
+		}
 
 		/* Section/Article */
 
@@ -397,6 +413,11 @@ img{
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		
+		img{
+			max-width: 60%;
+			margin-top: 5vh;
+		}
 
 			h2 {
 				font-size: 1em;
@@ -525,6 +546,12 @@ img{
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+
+
+		img{
+			max-width: 100%;
+			margin-top: 5vh;
+		}
 
 		/* Section/Article */
 
