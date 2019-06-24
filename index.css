@@ -113,7 +113,6 @@ img{
 	max-width: 40%;
 	/* border-radius: 59%; */
 	margin-top: 2vh;
-	max-width: 30%;
 	border-radius: 59%;
 
 	/* height: auto; */
@@ -227,7 +226,7 @@ img{
 		}
 
 		img{
-			max-width: 50%;
+			max-width: 110%;
 			margin-top: 10vh;
 		}
 
