@@ -95,17 +95,27 @@ body,html{
 
 
 .landingtitle{
-	font-size: 7vh;
+	font-size: 10vh;
+	font-family: monospace;
 }
 
-.landingtitle:hover{
-	color:white;
-	text-emphasis: 100;
-	cursor:pointer;
+.topExcel{
+	display: grid	;
+	justify-content: center;
+	align-items: center;
 }
+
+img{
+	margin-top: 2vh;
+	max-width: 30%;
+	border-radius: 59%;
+	/* height: auto; */
+	/* display: none; */
+}
+
 #header {
     background-attachment: scroll,							scroll,					fixed;
-    background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+    background-image: url("images/top-3200.svg"), url("images/index.png"), url("images/header.jpg");
     background-position: bottom center,					top left,				center center;
     background-repeat: repeat-x,						repeat,					no-repeat;
     background-size: 3200px 460px,					auto,					cover;
@@ -113,12 +123,15 @@ body,html{
     padding: 10em 0 20em 0;
     position: relative;
     text-align: center;
-    height:65vh;
-    width: 100vw;
+    height:90vh;
+		width: 100vw;
+		/* background: black; */
 }
 
     #header:before, #header:after {
-        background: rgba(224, 224, 224, 0.75);
+				/* background: rgba(224, 224, 224, 0.75); */
+				/* background: black; */
+
         content: '';
         left: 50%;
         position: absolute;
@@ -138,8 +151,11 @@ body,html{
     }
 
     #header a {
-        border-bottom-color: rgba(255, 255, 255, 0.35);
-        color: rgba(255, 255, 255, 0.8);
+				border-bottom-color: rgba(255, 255, 255, 0.35);
+				
+				/* background: black; */
+
+        color: white;
     }
 
         #header a:hover {
@@ -198,6 +214,15 @@ body,html{
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
+
+		.landingtitle{
+			font-size: 8vh;
+		}
+
+		img{
+			max-width: 50%;
+			margin-top: 10vh;
+		}
 
 			body, input, select, textarea {
 				font-size: 14pt;
@@ -441,7 +466,7 @@ body,html{
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1280.svg"), url("images/index.png"), url("../../images/header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
@@ -583,7 +608,7 @@ body,html{
     }
 
     .icon{
-k        background-color: black;
+        background-color: black;
         display: flex;
         justify-content: center;
         align-items:center;
