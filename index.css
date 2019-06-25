@@ -8,7 +8,7 @@ body,html{
 .btn {
 	background-color: transparent;
 	color: white;
-	border: 1px solid transparent;
+	border: 0px solid transparent;
 	padding: 10px;
 	font-size: 1.2em;
 }
@@ -55,15 +55,15 @@ body,html{
 	}}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: white;
+	background-color: transparent;
 	color: #c57ed3;
 }
 .navbar-default .navbar-toggle {
-	border-color: black;
-	width:7vh;
+	border-color: transparent;
+	width:7.2vh;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: white;
+	background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	color: black;
@@ -95,17 +95,33 @@ body,html{
 
 
 .landingtitle{
-	font-size: 7vh;
+	font-size: 10vh;
+	font-family: monospace;
+	display: none;
+
 }
 
-.landingtitle:hover{
-	color:white;
-	text-emphasis: 100;
-	cursor:pointer;
+.topExcel{
+	display: grid	;
+	justify-content: center;
+	align-items: center;
 }
+
+img{
+
+	/* margin-top: 2vh; */
+	max-width: 40%;
+	/* border-radius: 59%; */
+	margin-top: 2vh;
+	/* border-radius: 59%; */
+
+	/* height: auto; */
+	/* display: none; */
+}
+
 #header {
     background-attachment: scroll,							scroll,					fixed;
-    background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+    background-image: url("images/top-3200.svg"), url("images/index.png"), url("images/header.jpg");
     background-position: bottom center,					top left,				center center;
     background-repeat: repeat-x,						repeat,					no-repeat;
     background-size: 3200px 460px,					auto,					cover;
@@ -113,12 +129,15 @@ body,html{
     padding: 10em 0 20em 0;
     position: relative;
     text-align: center;
-    height:65vh;
-    width: 100vw;
+    height:90vh;
+		width: 100vw;
+		/* background: black; */
 }
 
     #header:before, #header:after {
-        background: rgba(224, 224, 224, 0.75);
+				/* background: rgba(224, 224, 224, 0.75); */
+				/* background: black; */
+
         content: '';
         left: 50%;
         position: absolute;
@@ -138,8 +157,11 @@ body,html{
     }
 
     #header a {
-        border-bottom-color: rgba(255, 255, 255, 0.35);
-        color: rgba(255, 255, 255, 0.8);
+				border-bottom-color: rgba(255, 255, 255, 0.35);
+				
+				/* background: black; */
+
+        color: white;
     }
 
         #header a:hover {
@@ -199,6 +221,15 @@ body,html{
 
 		/* Basic */
 
+		.landingtitle{
+			font-size: 8vh;
+		}
+
+		img{
+			max-width: 50%;
+			margin-top: 5vh;
+		}
+
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
@@ -239,6 +270,12 @@ body,html{
 	@media screen and (max-width: 1280px) {
 
 		/* Basic */
+
+
+		img{
+			max-width: 50%;
+			margin-top: 5vh;
+		}
 
 			body, input, select, textarea {
 				font-size: 13pt;
@@ -289,7 +326,7 @@ body,html{
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1600.svg"), url("images/index.png"), url("../../images/header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -336,6 +373,11 @@ body,html{
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+		
+		img{
+			max-width: 80%;
+			margin-top: 5vh;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -346,6 +388,11 @@ body,html{
 /* Narrower */
 
 	@media screen and (max-width: 840px) {
+
+		img{
+			max-width: 70%;
+			margin-top: 5vh;
+		}
 
 		/* Section/Article */
 
@@ -366,6 +413,11 @@ body,html{
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+		
+		img{
+			max-width: 60%;
+			margin-top: 5vh;
+		}
 
 			h2 {
 				font-size: 1em;
@@ -441,7 +493,7 @@ body,html{
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1280.svg"), url("images/index.png"), url("../../images/header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
@@ -494,6 +546,12 @@ body,html{
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+
+
+		img{
+			max-width: 100%;
+			margin-top: 5vh;
+		}
 
 		/* Section/Article */
 
@@ -583,7 +641,7 @@ body,html{
     }
 
     .icon{
-k        background-color: black;
+        background-color: black;
         display: flex;
         justify-content: center;
         align-items:center;
