@@ -1180,9 +1180,7 @@ img{
 		.reachhead{
 			font-size: 4vh;
 		}
-		.reachimg{
-			height: 12vh;
-		}
+
 	}
 
 
@@ -1365,6 +1363,7 @@ img{
 				 }
 				 .marquee{
 					 margin-top: 50px;
+					 margin-bottom: -10px;
 				 }
 				
 					
