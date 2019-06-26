@@ -1184,4 +1184,5 @@ img{
 .about
 		 {
 		 	background-color: white;
+			 max-height: 90vw;
 		 }
