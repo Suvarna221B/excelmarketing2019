@@ -1,6 +1,7 @@
 body,html{
 	margin:0;
 	overflow-x: hidden;
+	font-family: 'Montserrat';
 }
 
 		/* NAVBAR */
@@ -96,7 +97,7 @@ body,html{
 
 .landingtitle{
 	font-size: 10vh;
-	font-family: monospace;
+	font-family: 'Montserrat';
 	display: none;
 
 }
@@ -685,17 +686,266 @@ img{
                     /* WHY ASSOCIATE WITH EXCEL */
 				
 		.whyassociate{
-			/* padding-top: 2.5em; */
 			color:white;
 			background-color: black;
-			font-family: monospace;
+			font-family: 'Montserrat';
+			text-align:center;
+			font-size: 5vh;
+		}
+    .excelAssociation{
+    	width: 100%;
+        background-color: black;
+    	font-size:2vh;
+        font-family: 'Montserrat';
+        color: white;
+        vertical-align: center;
+    
+    }
+    .images{
+    	padding-left: 5vw;
+    	margin-left: 6vw;
+    }
+    .grid-item1{
+    	width:30vw;
+    	  }
+    .as{
+    	text-align: center;
+    }
+    .ashead{
+    	text-align: center;	
+    }
+
+    .wrapper{
+    	display: grid;
+    	justify-content: space-around;
+  		grid-template-columns: auto auto auto;
+  		grid-row-gap: 7.5vh;
+  		grid-column-gap:3vw;
+  		padding: 0vw 10vw;
+  		
+    }
+    .wrapper1{
+    	padding-top: 5vh;
+    	display: grid;
+    	grid-template-columns: auto auto;
+    	margin-left: 20vw;
+    	margin-right: 10vw;
+    	grid-column-gap: 3vw;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+  
+    	.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:50vh;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			justify-content: space-around;
+		}
+		.wrapper1{
+			padding-top: 7.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+		}
+		.images{
+			padding:3vw;
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			padding-top: 5vh;
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	}
+
+	@media (min-width: 320px) and (max-width: 480px) {
+  
+.grid-item1{
+    		width: 30vw;
+			
+			 grid-column: 1 / span 2;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap: 1.5vh;
+
+		}
+		.wrapper1{
+			padding-top: 1.5vh;
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:1.5vh;
+			padding-left: 4vw;	
+
+		
+		}
+		.images{
+		height: 15vh;	
+		margin-left: 6vw;
+		padding-left: 5vw;
+	
+	}
+		.whyassociate
+		{
+		
+					font-size:25px;
+					
+						
+		
+			
+		}
+		.as{
+			font-size:14px;
+			width: 50vw;
+			padding-top: 1vh;
+			margin-right: 5vw;
+			
+		}
+		.ashead{
+			font-size: 14px;
+			width: 50vw;
+		}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:30vw;
+
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			justify-content: space-around;
+		}
+		.wrapper1{
+			padding-top: 7.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+		}
+		.images{
+			padding-left: 4vw;
+			margin-left: 3vw;
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:50vh;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:3.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			
+		}
+		.wrapper1{
+			padding-top: 3.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:3.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+		}
+		.images{
+			padding-right: 10vw;
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	
+}/*.whyassociate{
+			
+			color:white;
+			background-color: black;
+			font-family: 'Montserrat';
 			margin-top: 10vw;
 		}	
 	
 	
     .excelAssociation{
-				/* margin-top:5.6vh; */
-				/* border: solid 2px blue; */
+				
        	height: 250vh;
         display: grid;
         vertical-align: middle;
@@ -707,14 +957,14 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: monospace;
+        font-family: 'Montserrat';
     }
 
     .associationImages{
         color: white;
         background-color: black;
 				vertical-align: middle;
-				/* border:1px solid red; */
+				
         
 
     }
@@ -779,122 +1029,148 @@ img{
 			p{
 				font-size:12px;
 			}
-}
+}*/
    
 
 
                         /* REACH */
 
 	.reach{
-        width:100%;
-        align-self: center;
-        font-family: monospace;
+		width:100%;
+		align-self: center;
+		font-family: 'Montserrat';
 
-		}
-	.reachhead {
-			margin-top:1vh;
-    	font-size: 4vw;
-    	text-align:center;
-    	justify-content: center;
-    	font-family: monospace;		
-		} 
-	@media screen and (max-width: 736px) {
-			.reachhead{
-				margin-top:10vh;
 			}
-		
-		}
-	.grid-container{
-  		display: grid;
-  		justify-content: space-around;
-  		grid-template-columns: auto auto auto auto;
-  		grid-row-gap: 10vh;
-  		grid-column-gap:1vw;
-  		grid-column-start: 1;
-
-	}
-
-	.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-
-	.reachimg{
-		height: 15vh;
-	}
- @media (min-width: 481px) and (max-width: 768px){
+		.reachhead {
+				margin-top:1vh;
+	    	font-size: 4vw;
+	    	text-align:center;
+	    	font-family:'Montserrat';		
+			} 
+		@media screen and (max-width: 736px) {
+				.reachhead{
+					margin-top:5vh;
+				}
+			
+			}
 		.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto auto;
-			grid-row-gap: 10vh;
-		}
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
+	  		display: grid;
+	  		justify-content: space-around;
+	  		grid-template-columns: auto auto auto auto;
+	  		grid-row-gap: 7.5vh;
+	  		grid-column-gap:1vw;
+	  		padding: 0vw 10vw;
+	  		margin-left: 7.5vw;
 
-	}
-
-@media (min-width: 320px) and (max-width: 480px){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
 		}
 
 		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-
-
-}
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
 		}
 
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
+		.reachimg{
+			height: 12vh;
+		}
+	 @media (min-width: 481px) and (max-width: 768px){
+			.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto auto;
+				grid-row-gap: 10vh;
+			}
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
 		}
 
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-}
+		}
 
+	@media (min-width: 320px) and (max-width: 480px){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+				grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+			.grid-item{
+				width: 30vw;
+			}
+
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 30px;	
+		}
+
+
+	}
+	@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+			grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+			.grid-item{
+				width: 30vw;
+			}
+
+			.rchead{
+			font-size: 3vh;
+		}
+
+
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
+		}
+	}
+
+
+	@media (min-width: 768px) and (max-width: 1024px){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+				grid-row-gap: 10vh;
+				grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
+		}
+	}
 
 
     /*.reach{
         width:100%;
-        font-family: monospace;
+        font-family: 'Montserrat';
 
 		}
     .container2{
@@ -908,7 +1184,7 @@ img{
     	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
-    	font-family: monospace;		
+    	font-family: 'Montserrat';		
 		} 
 		@media screen and (max-width: 736px) {
 			.reachhead{
@@ -983,7 +1259,7 @@ img{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
-			font-family: monospace;
+			font-family: 'Montserrat';
 		 -webkit-transition: left 2s;
             -moz-transition: left 2s;
             -o-transition: left 2s;
@@ -999,7 +1275,7 @@ img{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
-			font-family: monospace;
+			font-family: 'Montserrat';
 		 }
 	
 		.orb {
@@ -1096,7 +1372,7 @@ img{
 		.head
 		{
 			font-size: 3vw;color:black;
-			font-family: monospace;
+			font-family: 'Montserrat';
 			font-weight: bold;
 			text-align: center;
 			position: relative;
@@ -1105,7 +1381,7 @@ img{
 
 		.abtpara
 		{
-			color:black; font-size:1.3vw ;font-family: monospace ;
+			color:black; font-size:1.3vw ;font-family: 'Montserrat' ;
 			background-color: white;
 			text-align: center;
 			position: relative;
