@@ -1098,6 +1098,7 @@ img{
 			font-weight: bold;
 			text-align: center;
 			position: relative;
+			margin-top: 10vw;
 		}
 
 		.abtpara
@@ -1106,8 +1107,8 @@ img{
 			background-color: white;
 			text-align: center;
 			position: relative;
-			margin-left: 35px;
-			margin-right: 35px;
+			margin-left: 10vw;
+			margin-right: 10vw;
 
 
 		}
@@ -1134,8 +1135,8 @@ img{
 		 		max-width: 450px;
 		 		font-size: 3.8vw !important;
 		 		text-align: center;
-		 		margin-left: 15px;
-		 		margin-right: 15px;
+		 		margin-left: 10vw;
+		 		margin-right: 10vw;
 		 		align-items: center;
 
 		 	}
@@ -1143,6 +1144,7 @@ img{
 		 	.head{
 		 		text-align: center !important;
 		 		align-items: center;
+				margin-top: 10vw;
 		 	}
 
 		 }
@@ -1162,8 +1164,8 @@ img{
 		 		font-size: 2vw !important;
 		 		border-left: 15px;
 		 		align-items: center;
-		 		margin-left: 15px;
-		 		margin-right: 15px;
+		 		margin-left: 10vw;
+		 		margin-right: 10vw;
 		 	
 		 	}
 		 	.respon1{
@@ -1177,6 +1179,7 @@ img{
 		 		text-align: center !important;
 		 		vertical-align: center;
 		 		align-items: center;
+					margin-top: 10vw;
 		 	}
 
 		 }
