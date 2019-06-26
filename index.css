@@ -771,7 +771,7 @@ img{
 			
 						
 						padding-top:15em;
-				margin-top: 10vw;
+				        margin-top: 10vw;
 										
 					font-size: 40px;
 				
@@ -1140,6 +1140,7 @@ img{
 		 		margin-left: 10vw;
 		 		margin-right: 10vw;
 		 		align-items: center;
+				margin-bottom: 10vw;
 
 		 	}
 
