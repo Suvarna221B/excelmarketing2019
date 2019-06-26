@@ -1078,7 +1078,8 @@ img{
 		}
 
 		.reachimg{
-			height: 15vh;
+			height: 100px;
+			width:100px;
 		}
 	 @media (min-width: 481px) and (max-width: 768px){
 			.grid-container{
@@ -1098,6 +1099,7 @@ img{
 		}
 		.reachimg{
 			height: 12vh;
+			width:40px;
 		}
 
 		}
@@ -1126,6 +1128,7 @@ img{
 		}
 		.reachimg{
 			height: 12vh;
+			width:60px;
 		}
 
 
@@ -1148,6 +1151,7 @@ img{
 		}
 		.reachimg{
 			height: 12vh;
+			width:60px;
 		}
 
 
@@ -1156,6 +1160,7 @@ img{
 		}
 		.reachhead{
 			font-size: 4vh;
+
 		}
 	}
 
@@ -1170,6 +1175,10 @@ img{
 				padding: 0vw 10vw;
 
 			}
+			.reachimg{
+			height: 12vh;
+			width:90px;
+		}
 
 			.rchead{
 			font-size: 3vh;
@@ -1363,7 +1372,7 @@ img{
 				 }
 				 .marquee{
 					 margin-top: 50px;
-					 margin-bottom: -10px;
+					 margin-bottom: -6px;
 				 }
 				
 					
