@@ -1078,7 +1078,7 @@ img{
 		}
 
 		.reachimg{
-			height: 12vh;
+			height: 15vh;
 		}
 	 @media (min-width: 481px) and (max-width: 768px){
 			.grid-container{
@@ -1095,6 +1095,9 @@ img{
 		}
 		.reachhead{
 			font-size: 4vh;
+		}
+		.reachimg{
+			height: 12vh;
 		}
 
 		}
@@ -1121,6 +1124,9 @@ img{
 		.reachhead{
 			font-size: 30px;	
 		}
+		.reachimg{
+			height: 12vh;
+		}
 
 
 	}
@@ -1139,6 +1145,9 @@ img{
 
 			.rchead{
 			font-size: 3vh;
+		}
+		.reachimg{
+			height: 12vh;
 		}
 
 
@@ -1170,6 +1179,9 @@ img{
 		}
 		.reachhead{
 			font-size: 4vh;
+		}
+		.reachimg{
+			height: 12vh;
 		}
 	}
 
