@@ -982,6 +982,10 @@ img{
     	text-align:center;
 			justify-content: center;
 			font-family: monospace;
+		 -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
 			
 	}
 
