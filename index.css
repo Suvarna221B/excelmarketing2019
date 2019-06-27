@@ -111,7 +111,7 @@ body,html{
 .logoimg{
 
 	/* margin-top: 2vh; */
-	max-width: 40%;
+	max-width: 75vh;  
 	/* border-radius: 59%; */
 	margin-top: 2vh;
 	/* border-radius: 59%; */
@@ -130,9 +130,9 @@ body,html{
     padding: 10em 0 20em 0;
     position: relative;
     text-align: center;
-    height:90vh;
+    height:100vh;
 		width: 100vw;
-		/* background: black; */
+		/* background: red; */
 }
 
     #header:before, #header:after {
