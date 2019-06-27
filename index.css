@@ -1,6 +1,7 @@
 body,html{
 	margin:0;
 	overflow-x: hidden;
+	font-family: 'Montserrat';
 }
 
 		/* NAVBAR */
@@ -96,7 +97,7 @@ body,html{
 
 .landingtitle{
 	font-size: 10vh;
-	font-family: monospace;
+	font-family: 'Montserrat';
 	display: none;
 
 }
@@ -684,17 +685,270 @@ img{
 		}
                     /* WHY ASSOCIATE WITH EXCEL */
 				
-		.whyassociate{
-			/* padding-top: 2.5em; */
+	.whyassociate{
 			color:white;
 			background-color: black;
-			font-family: monospace;
+			font-family: 'Montserrat';
+			text-align:center;
+			font-size: 5vh;
+		}
+    .excelAssociation{
+    	width: 100%;
+        background-color: black;
+    	font-size:2vh;
+        font-family: 'Montserrat';
+        color: white;
+        vertical-align: center;
+    
+    }
+    .images{
+    	padding-left: 5vw;
+    	margin-left: 6vw;
+    }
+    .grid-item1{
+    	width:30vw;
+    	  }
+    .as{
+    	text-align: center;
+    }
+    .ashead{
+    	text-align: center;	
+    }
+
+    .wrapper{
+    	display: grid;
+    	justify-content: space-around;
+  		grid-template-columns: auto auto auto;
+  		grid-row-gap: 7.5vh;
+  		grid-column-gap:3vw;
+  		padding: 0vw 10vw;
+  		
+    }
+    .wrapper1{
+    	padding-top: 5vh;
+    	display: grid;
+    	grid-template-columns: auto auto;
+    	margin-left: 20vw;
+    	margin-right: 10vw;
+    	grid-column-gap: 3vw;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+  
+    	.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:50vh;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			justify-content: space-around;
+		}
+		.wrapper1{
+			padding-top: 7.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+		}
+		.images{
+			padding:3vw;
+
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			padding-top: 5vh;
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	}
+
+	@media (min-width: 320px) and (max-width: 480px) {
+  
+.grid-item1{
+    		width: 30vw;
+			
+			 grid-column: 1 / span 2;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap: 1.5vh;
+
+		}
+		.wrapper1{
+			padding-top: 1.5vh;
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:1.5vh;
+			padding-left: 4vw;	
+
+		
+		}
+		.images{
+		height: 90px;	
+		margin-left: 6vw;
+		padding-left: 5vw;
+	
+	}
+		.whyassociate
+		{
+		
+					font-size:25px;
+					
+						
+		
+			
+		}
+		.as{
+			font-size:14px;
+			width: 50vw;
+			padding-top: 1vh;
+			margin-right: 5vw;
+			
+		}
+		.ashead{
+			font-size: 14px;
+			width: 50vw;
+		}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+		.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:30vw;
+
+
+			}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			justify-content: space-around;
+		}
+		.wrapper1{
+			padding-top: 7.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:7.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+		}
+		.images{
+			padding-left: 4vw;
+			margin-left: 3vw;
+			
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+		.grid-item1{
+    		font-size: 2vw;
+    		text-align: center;
+				vertical-align: middle;
+				width:50vh;
+
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:3.5vh; 
+			margin-left: 10vh;
+			margin-right: 10vh;
+			
+		}
+		.wrapper1{
+			padding-top: 3.5vh;
+			display: grid;
+			justify-content: space-around;
+			grid-template-columns: auto;
+			grid-row-gap:3.5vh; 
+			margin-left: 0vh;
+			margin-right: 0vh;
+			padding-bottom:10vh;
+		}
+		.images{
+			padding-right: 10vw;
+		}
+	
+		.whyassociate
+		{
+		
+					font-size:3vh;
+					padding-top:1vh;
+						
+		
+			
+		}
+		.as{
+			font-size:18px;
+		}
+		.ashead{
+			font-size: 18px;
+		}
+
+
+  
+	
+}/*.whyassociate{
+			
+			color:white;
+			background-color: black;
+			font-family: 'Montserrat';
+			margin-top: 10vw;
 		}	
 	
 	
     .excelAssociation{
-				/* margin-top:5.6vh; */
-				/* border: solid 2px blue; */
+				
        	height: 250vh;
         display: grid;
         vertical-align: middle;
@@ -706,14 +960,14 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-family: monospace;
+        font-family: 'Montserrat';
     }
 
     .associationImages{
         color: white;
         background-color: black;
 				vertical-align: middle;
-				/* border:1px solid red; */
+				
         
 
     }
@@ -770,6 +1024,7 @@ img{
 			
 						
 						padding-top:15em;
+				        margin-top: 10vw;
 										
 					font-size: 40px;
 				
@@ -777,122 +1032,170 @@ img{
 			p{
 				font-size:12px;
 			}
-}
+}*/
    
 
 
                         /* REACH */
 
-	.reach{
-        width:100%;
-        align-self: center;
-        font-family: monospace;
+		.reach{
+		width:100%;
+		align-self: center;
+		font-family: 'Montserrat';
+		background-color: black;
+		color:white;
 
-		}
-	.reachhead {
-			margin-top:1vh;
-    	font-size: 4vw;
-    	text-align:center;
-    	justify-content: center;
-    	font-family: monospace;		
-		} 
-	@media screen and (max-width: 736px) {
-			.reachhead{
-				margin-top:10vh;
 			}
-		
-		}
-	.grid-container{
-  		display: grid;
-  		justify-content: space-around;
-  		grid-template-columns: auto auto auto auto;
-  		grid-row-gap: 10vh;
-  		grid-column-gap:1vw;
-  		grid-column-start: 1;
+		.reachhead {
+				margin-top:1vh;
+	    	font-size: 4vw;
+	    	text-align:center;
+	    	font-family:'Montserrat';	
 
-	}
-
-	.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-
-	.reachimg{
-		height: 15vh;
-	}
- @media (min-width: 481px) and (max-width: 768px){
+			} 
+		@media screen and (max-width: 736px) {
+				.reachhead{
+					margin-top:5vh;
+				}
+			
+			}
 		.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto auto;
-			grid-row-gap: 10vh;
-		}
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
+	  		display: grid;
+	  		justify-content: space-around;
+	  		grid-template-columns: auto auto auto auto;
+	  		grid-row-gap: 7.5vh;
+	  		grid-column-gap:1vw;
+	  		padding: 0vw 10vw;
+	  		margin-left: 7.5vw;
 
-	}
-
-@media (min-width: 320px) and (max-width: 480px){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
 		}
 
 		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-
-
-}
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
 		}
 
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px){
-	.grid-container{
-			display:grid;
-			justify-content: space-around;
-			grid-template-columns: auto auto;
-			grid-row-gap: 10vh;
+		.reachimg{
+			height: 100px;
+			width:100px;
+		}
+	 @media (min-width: 481px) and (max-width: 768px){
+			.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto auto;
+				grid-row-gap: 10vh;
+			}
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
+		}
+		.reachimg{
+			height: 12vh;
+			width:40px;
 		}
 
-		.rchead{
-		font-size: 3vh;
-	}
-	.rc{
-		font-size: 2vh;
-	}
-}
+		}
 
+	@media (min-width: 320px) and (max-width: 480px){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+				grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+			.grid-item{
+				width: 30vw;
+			}
+
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 30px;	
+		}
+		.reachimg{
+			height: 12vh;
+			width:60px;
+		}
+
+
+	}
+	@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+			grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+			.grid-item{
+				width: 30vw;
+			}
+
+			.rchead{
+			font-size: 3vh;
+		}
+		.reachimg{
+			height: 12vh;
+			width:60px;
+		}
+
+
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
+
+		}
+	}
+
+
+	@media (min-width: 768px) and (max-width: 1024px){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+				grid-row-gap: 10vh;
+				grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
+
+			}
+			.reachimg{
+			height: 12vh;
+			width:90px;
+		}
+
+			.rchead{
+			font-size: 3vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 4vh;
+		}
+
+	}
 
 
     /*.reach{
         width:100%;
-        font-family: monospace;
+        font-family: 'Montserrat';
 
 		}
     .container2{
@@ -906,7 +1209,7 @@ img{
     	font-size: 4vw;
     	text-align:center;
     	justify-content: center;
-    	font-family: monospace;		
+    	font-family: 'Montserrat';		
 		} 
 		@media screen and (max-width: 736px) {
 			.reachhead{
@@ -981,7 +1284,11 @@ img{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
-			font-family: monospace;
+			font-family: 'Montserrat';
+		 -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
 			
 	}
 
@@ -993,7 +1300,7 @@ img{
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
-			font-family: monospace;
+			font-family: 'Montserrat';
 		 }
 	
 		.orb {
@@ -1065,11 +1372,9 @@ img{
 				 }
 				 .marquee{
 					 margin-top: 50px;
+					 
 				 }
-				 .reachhead
-				 {
-					 padding-top:5.5em;
-				 }
+				
 					
 					.gallery{
 						padding-top:0em;
@@ -1078,36 +1383,105 @@ img{
 					}
 		 }
 		
-		 		@media only screen and (max-width: 400px)
-		 {
+
+		.aboutpara
+		{
+			background-color: white;
+			position: relative;
+
+		
+		}
+
+		.head
+		{
+			font-size: 3vw;color:black;
+			font-family: 'Montserrat';
+			font-weight: bold;
+			text-align: center;
+			position: relative;
+			margin-top: 10vw;
+		}
+
+		.abtpara
+		{
+			color:black; font-size:1.3vw ;font-family: 'Montserrat' ;
+			background-color: white;
+			text-align: center;
+			position: relative;
+			margin-left: 10vw;
+			margin-right: 10vw;
+
+
+		}
+
+
+
+		 		@media only screen and (max-width: 500px)
+		 {  
 		 	.respon
 		 	{
-		 		max-width: 80px;
-		 		height: 100px;
+		 		max-width: 0px !important;
+		 		max-height:0px !important;
+		 		display: none;
+		 	}
+
+		 	.respon1{
+		 		display:block;
+		 		text-align: center;
+
 		 	}
 
 		 	.abtpara
 		 	{
-		 		max-width: 250px;
-		 		font-size: 4.5vw !important;
-		 		
+		 		max-width: 450px;
+		 		font-size: 3.8vw !important;
+		 		text-align: center;
+		 		margin-left: 10vw;
+		 		margin-right: 10vw;
+		 		align-items: center;
+				margin-bottom: 10vw;
 
 		 	}
 
+		 	.head{
+		 		text-align: center !important;
+		 		align-items: center;
+				margin-top: 10vw;
+		 	}
+
 		 }
-		 		@media only screen and (min-width:401px) and (max-width: 768px)
+		 		@media only screen and (min-width:501px) and (max-width: 768px)
 		 {
 		 	.respon
 		 	{
 		 		max-width: 185px;
 		 		height: 250px;
+		 		display: none;
+
 		 	}
 
 		 	.abtpara
 		 	{
 		 		max-width: 480px;
 		 		font-size: 2vw !important;
+		 		border-left: 15px;
+		 		align-items: center;
+		 		margin-left: 10vw;
+		 		margin-right: 10vw;
 		 	
+		 	}
+		 	.respon1{
+		 		display:block;
+		 		vertical-align: center;
+		 		text-align: center;
+		 		/*height: 160px;
+		 		width: 180px;*/
+		 	}
+		 		.head{
+		 		text-align: center !important;
+		 		vertical-align: center;
+		 		align-items: center;
+					margin-top: 10vw;
 		 	}
 
 		 }
@@ -1115,4 +1489,5 @@ img{
 .about
 		 {
 		 	background-color: white;
+			 max-height: 90vw;
 		 }
