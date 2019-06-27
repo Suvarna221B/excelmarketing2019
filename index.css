@@ -1323,14 +1323,14 @@ body,html{
 			opacity: 1;
 		  }
 		 .container-fluid{
-			  overflow: hidden;
-			  padding: 0;
+			  /*overflow: hidden;*/
+				padding: 0;
 		  }
 		  
 		  .marquee {
 			height: 200px;
 			width: 6350px;
-			border: 2px solid #eee;
+			border:none;
 			box-sizing: border-box;
 			position: relative;
 			margin: 100px 0 200px 0;
@@ -1491,3 +1491,265 @@ body,html{
 		 	background-color: white;
 			 max-height: 90vw;
 		 }
+
+		 /* CODE RELATED SECTIONS END */
+
+
+/* Footer code */
+/*
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.generic-anchor {
+  color: #8db9ed;
+}
+.generic-anchor:visited {
+  color: #8db9ed;
+}
+.generic-anchor:hover {
+  color: #ccc;
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+footer {
+  background: #373737;
+  margin-top: auto;
+  width: 100%;
+}
+.footer-social-section {
+  padding:1.5em;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid #ccc;
+  width: calc(100% - 20px);
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: #373737;
+  padding: 0 20px;
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 1.8em "Oswald", sans-serif;
+  color: #fff;
+}
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px;
+}
+.footer-social-overlap > a {
+  font-size: 1.8em;
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em;
+}
+@media only screen and (max-width: 768px) {
+  .footer-social-connect {
+    font-size: 1em;
+  }
+  .footer-social-overlap > a {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .footer-social-section {
+    justify-content: center;
+  }
+  .footer-social-section::after {
+    top: 25%;
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto;
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-social-connect {
+    font-size: 1em;
+  }
+  .footer-social-overlap > a {
+    font-size: 1em;
+  }
+}
+*/
+
+
+.footerDiv {
+	width: 100%;
+	max-width: 100vw;
+	height:20vh;
+	/*padding: 10px;*/
+	padding-top: 1em;
+	background-color: #333;
+	display: grid;
+	grid-template-areas: "ibeto icon1 icon2 icon3 excel" ". brand brand brand .";
+  }
+  
+  .footerDiv a {
+	color: white;
+  }
+  
+  .logo {
+	grid-area: logo;
+	/* background-color: tomato; */
+	color: white;
+	display: grid;
+  }
+  
+  .footerDiv .logo img {
+	justify-self: center;
+	align-self: center;
+	height: 100px;
+	margin-left: -50px;
+	margin-bottom: 10px;
+  }
+  
+  .footerDiv .logo div {
+	justify-self: center;
+	margin: -2em;
+  }
+  
+  .footerDiv .logo div a {
+	color: white;
+	font-size: 18px;
+	padding: 0 1em;
+  }
+  
+  .footerDiv .logo div a:hover {
+	cursor: pointer;
+  }
+  
+  .footerIbeto {
+	grid-area: ibeto;
+	/* background-color: teal; */
+	display: grid;
+	margin: auto;
+  }
+  
+  .footerIbeto img {
+	justify-self: center;
+	align-self: center;
+	height: 5em;
+  }
+  
+  .footerIbeto div {
+	justify-self: center;
+	color: white;
+	margin-top: -1em;
+  }
+  
+  .footerExcel {
+	grid-area: excel;
+	/* background-color: #333; */
+	display: grid;
+	margin: auto;
+  }
+  
+  .footerExcel img {
+	justify-self: center;
+	align-self: center;
+	height: 5em;
+  }
+  
+  .footerExcel div {
+	justify-self: center;
+	color: white;
+	margin-top: -1em;
+  }
+  
+  .Excelbrand {
+	/* margin-top: 4em; */
+	grid-area: brand;
+	/* background-color: brown; */
+	display: grid;
+	text-align: center;
+  }
+  
+  .Excelbrand span {
+	align-self: center;
+	justify-self: center;
+	color: white;
+  }
+  
+  .icon1{
+	grid-area: icon1;
+	margin: auto;
+  }
+  .icon2{
+	grid-area: icon2;
+	margin: auto;
+  }
+  .icon3{
+	grid-area: icon3;
+	margin: auto;
+  }
+  
+  @media only screen and (max-width: 500px) {
+  
+	.footerDiv {
+	  grid-template-areas: "ibeto . . . excel" ". icon1 icon2 icon3 ." ". brand brand brand .";
+	  height: 175px;
+	  padding-top: 15px;
+	  font-size: 12px;
+	}
+	.footerDiv img{
+	  height: 42px;
+	}
+  
+	.footerDiv .logo div a {
+		font-size: 17px;
+		padding: 0 4px;
+	}
+  
+	.icon3 img{
+	  height: 32px;
+	}
+  
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.footerDiv .logo div a {
+	  font-size: 12px;
+	  padding: 0 4px;
+	}
+  }
+  
+  
+  /* Footer ends here */
