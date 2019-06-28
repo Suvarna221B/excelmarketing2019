@@ -6,88 +6,145 @@ body,html{
 
 		/* NAVBAR */
 
-.btn {
-	background-color: transparent;
-	color: white;
-	border: 0px solid transparent;
-	padding: 10px;
-	font-size: 1.2em;
-}
-
-.navbar {
-	height: 0px;
-	background-color: transparent;
-	border: none;
-	color: white;
-	z-index: 100;
-	transition: background-color 1s ease 0s;
-}
-.navbar-default .navbar-brand {
-	vertical-align:middle;
-	color:transparent;
-}
-
-
-.navbar-default .navbar-brand:hover {
-	color:transparent;
-	border: 1px solid transparent;
-}
-.navbar-default .navbar-nav > li > a {
-	color: white;
-
-	vertical-align:middle;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-	color: #f9f5fa;
-	border: 1px solid transparent;
-}
-
-
-.navbar-default .navbar-nav > li > a:visited {
-	color: white;
-	text-decoration: none;
-
-}
-@media screen and (max-width: 736px) {
-	.navbar-default .navbar-nav > li > a:visited {
-		color: black;
-		text-decoration: none;
-	
-	}}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background-color: transparent;
-	color: #c57ed3;
-}
-.navbar-default .navbar-toggle {
-	border-color: transparent;
-	width:7.2vh;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: transparent;
-}
-.navbar-default .navbar-toggle .icon-bar {
-	color: black;
-	background-color: black;
-}
-.navbar-default .navbar-collapse.collapse.in ul {
-	background-color: white;
-}
-/* Solid class attached on scroll past first section */
-.navbar.solid {
-	background-color: white;
-	transition: background-color 1s ease 0s;
-	box-shadow: 0 0 4px grey;
-}
-.navbar.solid .navbar-brand {
-	color: black;
-	transition: color 1s ease 0s;
-}
-.navbar.solid .navbar-nav > li > a {
-	
-	color:black;
-	transition: color 1s ease 0s;
-}
+		.btn {
+			background-color: transparent;
+			color: white;
+			border: 0px solid transparent;
+			padding: 10px;
+			font-size: 1.2em;
+			
+		}
+		
+		.navbar {
+			height: 0px;
+			background-color: transparent;
+			border: none;
+			color: white;
+			z-index: 100;
+			transition: background-color 1s ease 0s;
+		}
+		.navbar-default .navbar-brand {
+			margin-top:0px;
+			vertical-align:middle;
+			color:transparent;
+		}
+		
+		
+		.navbar-default .navbar-brand:hover {
+			color:transparent;
+			border: 1px solid transparent;
+		}
+		
+		.logo-img
+		{
+			width:26vh;
+			height:20px;
+			
+			border-radius:50%;
+			margin-top:-38.5px;
+		}
+		
+		.navbar-default .navbar-nav > li > a {
+			color: white;
+		
+			vertical-align:middle;
+		}
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+			color: #f9f5fa;
+			border: 0px solid transparent;
+		}
+		
+		
+		.navbar-default .navbar-nav > li > a:visited {
+			
+			text-decoration: none;
+		
+		}
+		
+		
+		.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+			background-color: transparent;
+			color: black;
+		}
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			width:7.2vh;
+			color:white;
+		}
+		.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+			background-color: transparent;
+		}
+		.navbar-default .navbar-toggle .icon-bar {
+			color: black;
+			background-color: orange;
+		}
+		.navbar-default .navbar-collapse.collapse.in ul {
+			color:black;
+			background-color: white;
+			margin-top:0px;
+			position: relative;
+		
+		}
+		.collapsed {
+			
+			
+			height: 031px;
+			overflow: hidden;
+			-webkit-transition: height .01s ease;
+			-moz-transition: height .01s ease;
+			-o-transition: height .01s ease;
+			transition: height .01s ease;
+		  }
+		.navbar-collapse
+		{
+			
+			overflow: hidden;
+			-webkit-transition: height .001s ease;
+			-moz-transition: height .001s ease;
+			-o-transition: height .001s ease;
+			transition: height .001s ease;
+		
+		}
+		@media screen and (max-width: 736px) {
+			.navbar-default .navbar-nav > li > a:visited {
+				color: black;
+				text-decoration: none;
+				
+			
+			}
+			.navbar-default .navbar-nav > li > a {
+				color: black;
+			
+				vertical-align:middle;
+			}
+		
+			.logo-img
+		{
+			width:11vh;
+			height:20px;
+			
+			border-radius:50%;
+			margin-top:-50px;
+		}
+		
+			
+			
+			}
+		/* Solid class attached on scroll past first section */
+		.navbar.solid {
+			background-color: white;
+			transition: background-color 1s ease 0s;
+			box-shadow: 0 0 4px grey;
+		}
+		.navbar.solid .navbar-brand {
+			color: black;
+			transition: color 1s ease 0s;
+		}
+		.navbar.solid .navbar-nav > li > a {
+			
+			color:black;
+			transition: color 1s ease 0s;
+		}
 			
 			
 
