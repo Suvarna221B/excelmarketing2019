@@ -12,7 +12,6 @@ body,html{
 			border: 0px solid transparent;
 			padding: 10px;
 			font-size: 1.2em;
-			
 		}
 		
 		.navbar {
@@ -35,13 +34,13 @@ body,html{
 			border: 1px solid transparent;
 		}
 		
-		.logo-img
+		.logo-image img
 		{
-			width:26vh;
-			height:20px;
+			width:13vh;
+			height:6.5vh;
 			
-			border-radius:50%;
-			margin-top:-38.5px;
+			margin-top:-17px;
+		
 		}
 		
 		.navbar-default .navbar-nav > li > a {
@@ -118,18 +117,34 @@ body,html{
 				vertical-align:middle;
 			}
 		
-			.logo-img
+			.logo-image
 		{
-			width:11vh;
+			width:10.5vh;
 			height:20px;
 			
 			border-radius:50%;
-			margin-top:-50px;
+			margin-top:8px;
 		}
 		
 			
 			
 			}
+			@media screen and (min-width: 768px) {
+				.logo-image
+				{
+					width:5vh;
+					
+					
+					border-radius:50%;
+					margin-top:-2px;
+				}
+				#nav
+				{
+					height: 5.6vh;
+					font-size: 17px;
+				}
+				
+				}
 		/* Solid class attached on scroll past first section */
 		.navbar.solid {
 			background-color: white;
@@ -145,6 +160,7 @@ body,html{
 			color:black;
 			transition: color 1s ease 0s;
 		}
+					
 			
 			
 
