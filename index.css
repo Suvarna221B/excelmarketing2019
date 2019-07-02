@@ -764,7 +764,7 @@ body,html{
 			font-family: 'Montserrat';
 			text-align:center;
 			font-size: 5vh;
-			margin-top: 10vw;
+			margin-top: 3vw;
 		}
     .excelAssociation{
     	width: 100%;
@@ -805,6 +805,7 @@ body,html{
     	margin-left: 20vw;
     	margin-right: 10vw;
     	grid-column-gap: 3vw;
+    	margin-bottom: 3vw;
     }
     @media (min-width: 481px) and (max-width: 767px) {
   
@@ -936,6 +937,7 @@ body,html{
 			grid-row-gap:7.5vh; 
 			margin-left: 0vh;
 			margin-right: 0vh;
+
 		}
 		.images{
 			padding-left: 4vw;
@@ -978,6 +980,7 @@ body,html{
 			grid-row-gap:3.5vh; 
 			margin-left: 10vh;
 			margin-right: 10vh;
+
 			
 		}
 		.wrapper1{
@@ -989,6 +992,7 @@ body,html{
 			margin-left: 0vh;
 			margin-right: 0vh;
 			padding-bottom:10vh;
+
 		}
 		.images{
 			padding-right: 10vw;
@@ -1120,6 +1124,7 @@ body,html{
 		background-color: black;
 		color:white;
 
+
 			}
 		.reachhead {
 				margin-top:1vh;
@@ -1142,6 +1147,7 @@ body,html{
 	  		grid-column-gap:1vw;
 	  		padding: 0vw 10vw;
 	  		margin-left: 7.5vw;
+	  		margin-bottom: 3vh;
 
 		}
 
@@ -1202,7 +1208,7 @@ body,html{
 			font-size: 30px;	
 		}
 		.reachimg{
-			height: 12vh;
+			height: 11vh;
 			width:60px;
 		}
 
@@ -1355,7 +1361,7 @@ body,html{
 
 	.gallery
 	{
-		margin-top:1.5em;
+		margin-top:1em;
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
@@ -1364,6 +1370,8 @@ body,html{
             -moz-transition: left 1s;
             -o-transition: left 1s;
             transition: left 1s;
+            margin-bottom: 0.5em;
+
 			
 	}
 
