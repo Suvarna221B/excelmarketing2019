@@ -463,6 +463,11 @@ body,html{
 
 	@media screen and (max-width: 840px) {
 
+
+		.topExcel{
+			margin-top:20vh;
+		}
+	
 		.logoimg{
 			max-width: 70%;
 			margin-top: 5vh;
@@ -490,7 +495,7 @@ body,html{
 		
 		.logoimg{
 			max-width: 60%;
-			margin-top: 5vh;
+			margin-top: 7vh;
 		}
 
 			h2 {
