@@ -1531,7 +1531,9 @@ body,html{
 		 		text-align: center !important;
 		 		align-items: center;
 				margin-top: 10vw;
-				font-size=5vw;
+				font-size=6vw;
+				font-family: 'Montserrat';
+			        font-weight: bold;
 		 	}
 
 		 }
