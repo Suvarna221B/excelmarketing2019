@@ -12,7 +12,6 @@ body,html{
 			border: 0px solid transparent;
 			padding: 10px;
 			font-size: 1.2em;
-			
 		}
 		
 		.navbar {
@@ -35,13 +34,13 @@ body,html{
 			border: 1px solid transparent;
 		}
 		
-		.logo-img
+		.logo-image img
 		{
-			width:26vh;
-			height:20px;
+			width:13vh;
+			height:6.5vh;
 			
-			border-radius:50%;
-			margin-top:-38.5px;
+			margin-top:-17px;
+		
 		}
 		
 		.navbar-default .navbar-nav > li > a {
@@ -118,18 +117,34 @@ body,html{
 				vertical-align:middle;
 			}
 		
-			.logo-img
+			.logo-image
 		{
-			width:11vh;
+			width:10.5vh;
 			height:20px;
 			
 			border-radius:50%;
-			margin-top:-50px;
+			margin-top:8px;
 		}
 		
 			
 			
 			}
+			@media screen and (min-width: 768px) {
+				.logo-image
+				{
+					width:5vh;
+					
+					
+					border-radius:50%;
+					margin-top:-2px;
+				}
+				#nav
+				{
+					height: 5.6vh;
+					font-size: 17px;
+				}
+				
+				}
 		/* Solid class attached on scroll past first section */
 		.navbar.solid {
 			background-color: white;
@@ -145,6 +160,7 @@ body,html{
 			color:black;
 			transition: color 1s ease 0s;
 		}
+					
 			
 			
 
@@ -748,7 +764,7 @@ body,html{
 			font-family: 'Montserrat';
 			text-align:center;
 			font-size: 5vh;
-			margin-top: 10vw;
+			margin-top: 3vw;
 		}
     .excelAssociation{
     	width: 100%;
@@ -789,6 +805,7 @@ body,html{
     	margin-left: 20vw;
     	margin-right: 10vw;
     	grid-column-gap: 3vw;
+    	margin-bottom: 3vw;
     }
     @media (min-width: 481px) and (max-width: 767px) {
   
@@ -920,6 +937,7 @@ body,html{
 			grid-row-gap:7.5vh; 
 			margin-left: 0vh;
 			margin-right: 0vh;
+
 		}
 		.images{
 			padding-left: 4vw;
@@ -962,6 +980,7 @@ body,html{
 			grid-row-gap:3.5vh; 
 			margin-left: 10vh;
 			margin-right: 10vh;
+
 			
 		}
 		.wrapper1{
@@ -973,6 +992,7 @@ body,html{
 			margin-left: 0vh;
 			margin-right: 0vh;
 			padding-bottom:10vh;
+
 		}
 		.images{
 			padding-right: 10vw;
@@ -1104,6 +1124,7 @@ body,html{
 		background-color: black;
 		color:white;
 
+
 			}
 		.reachhead {
 				margin-top:1vh;
@@ -1126,6 +1147,7 @@ body,html{
 	  		grid-column-gap:1vw;
 	  		padding: 0vw 10vw;
 	  		margin-left: 7.5vw;
+	  		margin-bottom: 3vh;
 
 		}
 
@@ -1186,7 +1208,7 @@ body,html{
 			font-size: 30px;	
 		}
 		.reachimg{
-			height: 12vh;
+			height: 11vh;
 			width:60px;
 		}
 
@@ -1339,7 +1361,7 @@ body,html{
 
 	.gallery
 	{
-		margin-top:1.5em;
+		margin-top:1em;
     	font-size: 4vw;
     	text-align:center;
 			justify-content: center;
@@ -1348,6 +1370,8 @@ body,html{
             -moz-transition: left 1s;
             -o-transition: left 1s;
             transition: left 1s;
+            margin-bottom: 0.5em;
+
 			
 	}
 
@@ -1430,7 +1454,8 @@ body,html{
 			 
 				 }
 				 .marquee{
-					 margin-top: 50px;
+					 margin-top: 40px;
+					 margin-bottom: 0px;
 					 
 				 }
 				
@@ -1506,6 +1531,9 @@ body,html{
 		 		text-align: center !important;
 		 		align-items: center;
 				margin-top: 10vw;
+				font-size=12vw;
+				font-family: 'Montserrat';
+			        font-weight: bold;
 		 	}
 
 		 }
@@ -1541,6 +1569,7 @@ body,html{
 		 		vertical-align: center;
 		 		align-items: center;
 					margin-top: 10vw;
+					font-size=8vw;
 		 	}
 
 		 }
@@ -1810,5 +1839,105 @@ footer {
 	}
   }
   
+
+  #contactSection .section-content {
+    text-align: center;
+    background-color:#D3D3D3;
+  
+
+    /*margin-top:-2em;*/
+    padding:5vw;
+  }
+
+
+  .contact-card{
+    text-align: left;
+    display: inline-block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10vw;
+  }
+
+  .contact-card p{
+    margin-bottom: 0rem;
+  }
+
+  .contact-img{
+    width: 200px;
+    height:200px;
+    vertical-align: middle;
+    margin: 0px 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 50%;
+    
+  }
+
+
+
+  .contact-dets{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-size: 2rem;
+    
+  }
+
+  .contact-mail, .contact-tel{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+  }
+
+  .contact-mail:hover, .contact-tel:hover{
+    color: #007bff;
+    text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .contact-card p{
+      font-size: 1.5rem;
+      line-height: 1.8rem;
+
+    }
+
+    #contactSection .section-content{
+      margin-top: 5vh;
+      max-width: 100vw;
+      text-align: center;
+
+
+    }
+
+    #contactSection h1{
+      margin-bottom: 0px;
+    }
+
+    .contact-img{
+      width: 30vh;
+      height: 30vh;
+      margin-left:8vw;
+      margin-bottom:30px;
+
+      
+    }
+    .contact-dets{
+    
+      line-height: 1.2;
+      font-size: 18px;
+      word-wrap: break-word;
+      margin-left:5px;
+      
+    }
+    #navlogo
+    {
+      width:50px;
+      height:50px;
+  }
+
+
+  }
   
   /* Footer ends here */
