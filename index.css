@@ -36,7 +36,7 @@ body,html{
 		
 		.logo-image img
 		{
-			width:13vh;
+			
 			height:6.5vh;
 			
 			margin-top:-17px;
@@ -1847,7 +1847,7 @@ footer {
 
   #contactSection .section-content {
     text-align: center;
-    background-color:#D3D3D3;
+ background-image: url("images/email-pattern.png");
   
 
     /*margin-top:-2em;*/
@@ -1869,8 +1869,8 @@ footer {
   }
 
   .contact-img{
-    width: 200px;
-    height:200px;
+    width: auto;
+    height:160px;
     vertical-align: middle;
     margin: 0px 20px;
     border-style: solid;
@@ -1885,7 +1885,7 @@ footer {
     display: inline-block;
     vertical-align: middle;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 1.75rem;
     
   }
 
@@ -1921,8 +1921,8 @@ footer {
     }
 
     .contact-img{
-      width: 30vh;
-      height: 30vh;
+      width: auto;
+      height: 25vh;
       margin-left:8vw;
       margin-bottom:30px;
 
@@ -1931,7 +1931,7 @@ footer {
     .contact-dets{
     
       line-height: 1.2;
-      font-size: 18px;
+      font-size: 16px;
       word-wrap: break-word;
       margin-left:5px;
       
