@@ -783,6 +783,7 @@ body,html{
     .images{
     	padding-left: 5vw;
     	margin-left: 5vw;
+    	
     }
     .grid-item1{
     	width:30vw;
@@ -968,6 +969,11 @@ body,html{
 
 
   
+	}
+	@media (min-width: 1025px) and (max-width: 1800px){
+		.images{
+			padding-left:3.1vw;
+		}
 	}
 
 
