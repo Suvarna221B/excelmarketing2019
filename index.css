@@ -193,9 +193,6 @@ body,html{
 	/* display: none; */
 }
 
-.cred{
-	color:black;
-}
 #header {
     background-attachment: scroll,							scroll,					fixed;
     background-image: url("images/top-3200.svg"), url("images/index.png"), url("images/header.jpg");
@@ -293,12 +290,7 @@ body,html{
         margin: 0.25em 0 0 0;
     }
 
-	@media screen and (max-width: 1850px) {
-		.logoimg{
-			margin-top: 0vh;
-			max-width:40%;
 
-		}
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
@@ -444,28 +436,28 @@ body,html{
 
 		/* Main */
 
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
+			#main {
+				padding: 4em 0 3em 0;
+			}
 
-	}<a href="">.</a>
+	}
 
-/* <a href="">.</a>
+/* Narrow */
 
-	@<a href="">.</a>
+	@media screen and (max-width: 980px) {
 
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
+		/* Basic */
+		
+		.logoimg{
+			max-width: 80%;
+			margin-top: 5vh;
+		}
 
-	<a href="">.</a>
-	<a href="">.</a>
-	<a href="">.</a>
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
 
-	}<a href="">.</a>
+	}
 
 /* Narrower */
 
