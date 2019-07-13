@@ -290,7 +290,12 @@ body,html{
         margin: 0.25em 0 0 0;
     }
 
-
+		@media screen and (max-width: 1850px) {
+			.logoimg{
+				margin-top: 0vh;
+				max-width:40%;
+			}
+		}
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
