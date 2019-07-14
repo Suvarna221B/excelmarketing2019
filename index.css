@@ -195,14 +195,13 @@ body,html{
 }
 @media (min-width: 1245px) and (max-width: 1800px) {
 	.logoimg{
-		height: 55vh;
-		width: 100vw;
-	}
+		}
 	.topExcel{
 		display: grid	;
 		justify-content: center;
 		align-items: center;
 		margin-bottom:50px;
+		margin-top:-5em;
 	}
 }
 
