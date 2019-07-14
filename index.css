@@ -195,7 +195,8 @@ body,html{
 }
 @media (min-width: 1245px) and (max-width: 1800px) {
 	.logoimg{
-		margin-top:-70px;
+		height: 60vh;
+		width: 100vw;
 	}
 	.topExcel{
 		display: grid	;
