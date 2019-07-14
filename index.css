@@ -192,6 +192,17 @@ body,html{
 	/* height: auto; */
 	/* display: none; */
 }
+@media (min-width: 1245px) and (max-width: 1800px) {
+	.logoimg{
+		margin-top:-70px;
+	}
+	.topExcel{
+		display: grid	;
+		justify-content: center;
+		align-items: center;
+		margin-bottom:50px;
+	}
+}
 
 #header {
     background-attachment: scroll,							scroll,					fixed;
