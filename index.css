@@ -201,7 +201,7 @@ body,html{
 		justify-content: center;
 		align-items: center;
 		margin-bottom:50px;
-		margin-top:-5em;
+		margin-top:-7em;
 	}
 }
 
@@ -778,6 +778,13 @@ body,html{
 				display: grid;
 				grid-template-rows: 2fr 5fr;
 			} */
+		}
+		@media (max-width: 768px)
+		{
+			.about{
+				height:auto;
+				margin-bottom:2vh;
+			}
 		}
                     /* WHY ASSOCIATE WITH EXCEL */
 				
