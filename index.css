@@ -782,7 +782,8 @@ body,html{
 		@media (max-width: 768px)
 		{
 			.about{
-				margin-bottom:0px;
+				height:auto;
+				margin-bottom:2vh;
 			}
 		}
                     /* WHY ASSOCIATE WITH EXCEL */
