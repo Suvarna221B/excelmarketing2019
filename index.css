@@ -779,6 +779,12 @@ body,html{
 				grid-template-rows: 2fr 5fr;
 			} */
 		}
+		@media (max-width: 768px)
+		{
+			.about{
+				margin-bottom:0px;
+			}
+		}
                     /* WHY ASSOCIATE WITH EXCEL */
 				
 	.whyassociate{
