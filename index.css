@@ -902,7 +902,7 @@ body,html{
 			display: grid;
 			grid-template-columns: auto;
 			grid-row-gap: 1.5vh;
-			padding-right: 2vw;
+			
 
 		}
 		.wrapper1{
