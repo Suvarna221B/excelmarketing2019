@@ -838,7 +838,7 @@ body,html{
     	grid-column-gap: 3vw;
     	margin-bottom: 3vw;
     }
-    @media (min-width: 481px) and (max-width: 767px) {
+    @media (min-width: 500px) and (max-width: 767px) {
   
     	.grid-item1{
     		font-size: 2vw;
@@ -889,8 +889,61 @@ body,html{
 
   
 	}
+	@media (min-width: 400px) and (max-width:500px) 
+	{
+		
+		.grid-item1{
+    		width: 30vw;
+			
+			 grid-column: 1 / span 2;
 
-	@media (min-width: 320px) and (max-width: 480px) {
+		}
+		.wrapper{
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap: 1.5vh;
+
+		}
+		.wrapper1{
+			padding-top: 1.5vh;
+			display: grid;
+			grid-template-columns: auto;
+			grid-row-gap:1.5vh;
+			padding-left: 4vw;	
+
+		
+		}
+		.images{
+		height: 90px;	
+		margin-left: 6vw;
+		padding-left: 7.5vw;
+	
+	}
+		.whyassociate
+		{
+		
+					font-size:25px;
+					margin-top: 10vw;
+					
+						
+		
+			
+		}
+		.as{
+			font-size:14px;
+			width: 50vw;
+			padding-top: 1vh;
+			margin-right: 5vw;
+			
+		}
+		.ashead{
+			font-size: 14px;
+			width: 50vw;
+		}
+}
+	
+
+	@media (min-width: 320px) and (max-width: 399px) {
   
 .grid-item1{
     		width: 30vw;
