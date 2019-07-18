@@ -1254,7 +1254,7 @@ body,html{
 			height: 100px;
 			width:100px;
 		}
-	 @media (min-width: 481px) and (max-width: 768px){
+	 @media (min-width: 501px) and (max-width: 768px){
 			.grid-container{
 				display:grid;
 				justify-content: space-around;
@@ -1276,8 +1276,37 @@ body,html{
 		}
 
 		}
+		@media (min-width: 400px) and (max-width: 500px){
+		.grid-container{
+				display:grid;
+				justify-content: space-around;
+				grid-template-columns: auto auto;
+				grid-row-gap: 5.5vh;
+				padding: 0vw 10vw;
 
-	@media (min-width: 320px) and (max-width: 480px){
+			}
+			.grid-item{
+				width: 30vw;
+			}
+
+			.rchead{
+			font-size: 2.5vh;
+		}
+		.rc{
+			font-size: 2vh;
+		}
+		.reachhead{
+			font-size: 30px;	
+		}
+		.reachimg{
+			height: 10vh;
+			width:auto;
+		}
+
+
+	}
+
+	@media (min-width: 320px) and (max-width: 399px){
 		.grid-container{
 				display:grid;
 				justify-content: space-around;
