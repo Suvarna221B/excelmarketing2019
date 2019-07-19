@@ -1929,6 +1929,22 @@ footer {
 	grid-area: icon3;
 	margin: auto;
   }
+  @media only screen and (max-width: 768px) {
+	.icon1{
+		margin-left:-20px;
+	}
+	.icon2{
+		margin-left:4px;
+	}
+	.icon3{
+		margin-left:5px;
+	}
+	.Excelbrand
+	{
+		margin-left:-20px;
+	}
+}
+  
   
   @media only screen and (max-width: 500px) {
   
@@ -1946,6 +1962,7 @@ footer {
 		font-size: 17px;
 		padding: 0 4px;
 	}
+
   
 	.icon3 img{
 	  height: 32px;
