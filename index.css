@@ -76,7 +76,7 @@ body,html{
 		}
 		.navbar-default .navbar-toggle .icon-bar {
 			color: black;
-			background-color: orange;
+			background-color:rgb(255, 68, 0);
 		}
 		.navbar-default .navbar-collapse.collapse.in ul {
 			color:black;
@@ -105,7 +105,15 @@ body,html{
 			transition: height .001s ease;
 		
 		}
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 768px) {
+			.navbar-default .navbar-toggle .icon-bar 
+			{
+				
+			}
+			#nav
+			{
+				height:7vh;
+			}
 			.navbar-default .navbar-nav > li > a:visited {
 				color: black;
 				text-decoration: none;
