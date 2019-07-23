@@ -2081,4 +2081,43 @@ footer {
     word-wrap: break-word;
   }
   }
-  /* Footer ends here */
+  @media (min-width: 1200px) and (max-width: 1800px){
+  	 #contactSection .section-content {
+  text-align: center;
+  /*margin-top:-2em;*/
+   background-image: url("images/email-pattern.png");
+  padding:0;
+}
+
+
+.contact-card{
+  text-align: left;
+  display: inline-block;
+  margin: 40px auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+.contact-card p{
+  margin-bottom: 0rem;
+}
+
+.contact-img{
+  width: 150px;
+  height: auto;
+  vertical-align: middle;
+  margin: 0px 10px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 50%;
+}
+
+.contact-dets{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+
+  	}  /* Footer ends here */
