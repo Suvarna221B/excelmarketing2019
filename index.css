@@ -2095,7 +2095,7 @@ footer {
   display: inline-block;
   margin: 40px auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 430px;
 }
 
 .contact-card p{
@@ -2104,7 +2104,7 @@ footer {
 
 .contact-img{
   width: auto;
-  height: 18vh;
+  height: 130px;
   vertical-align: middle;
   margin: 0px 10px;
   border-style: solid;
@@ -2116,7 +2116,7 @@ footer {
   display: inline-block;
   vertical-align: middle;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 
