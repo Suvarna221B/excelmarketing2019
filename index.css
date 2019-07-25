@@ -76,6 +76,7 @@ body,html{
 		}
 		.navbar-default .navbar-toggle .icon-bar {
 			color: black;
+			float:none;
 			background-color:rgb(255, 68, 0);
 		}
 		.navbar-default .navbar-collapse.collapse.in ul {
